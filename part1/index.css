@@ -1,0 +1,151 @@
+form {
+    text-align: center;
+    align: center;
+    margin:5px 0px; padding:0px;
+}
+
+#searchbar {
+    width: 550px;
+    background-color: transparent;
+    border: 1px solid 	rgb(232,232,232);
+    color: rgba(0,0,0,.87);
+    height: 34px;
+    font-size: 16px;
+    align:center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 275px; /*rounds the edges of the search-bar*/
+    text-align: auto;
+    padding: 5px 5px 5px 45px; /* adds space between the cursor and the border of the search-bar*/
+    cursor: pointer;
+
+}
+
+.search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    background-position: left center;
+    left: 430px;
+    margin-top: 32px;
+    position: absolute;
+    display: inline-block;
+    pointer-events: none;
+}
+
+.search-button img {
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
+}
+
+.button {
+    margin: 5px;
+    text-align: center;
+    align: center;
+    padding: 10px;
+    font-family: Roboto,arial,sans-serif;
+    color: #3c4043;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    cursor: pointer;
+    user-select: none;
+    appearance: auto;
+}
+
+.button:hover{
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 1px #C8C8C8;
+    border-radius: 5px;
+}
+
+.logocenter{
+    text-align: center;
+    align: center;
+    margin-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerstyling {
+    position: absolute;
+    bottom: 0; /*bottom/top work only when position is absolute*/
+    height: 3rem;
+    width: 100%;
+    background-color: rgb(240,240,240);
+    color: #70757a;
+    font-size: 14px;
+    display: flex;
+}
+
+.footerleft {
+    display: flex;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.footerright {
+    display: flex;
+    margin-left: 840px;
+    position: absolute;
+    right: 15px;
+}
+
+.footercenter {
+    bottom: 0;
+    color: #70757a;
+    font-size: 14px;
+    position: absolute;
+}
+
+.footercenterstyling {
+    text-align: center;
+    align-content: center;
+    bottom: 0;
+}
+
+.footerfontcolor {
+    color: #70757a;
+}
+
+.headerstyling {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    color: #000000;
+    font-size: 14px;
+    display: flex;
+}
+
+.headerfontcolor {
+    color: #000000;
+}
+
+.headerleft {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px
+}
+
+.headerright {
+    display: flex;
+    margin-left: 1040px;
+    margin-top: 10px;
+}
+
+p {
+    margin: 5px;
+    padding: 10px;
+    font-family: Roboto,arial,sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
